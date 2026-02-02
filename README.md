@@ -5,4 +5,4 @@
 2. Activate: `conda activate NTK-RE`
 3. Run training:
    ```bash
-   python train.py --X_path data_X.pt --Y_path data_Y.pt
+   python train.py --X data_X.pt --Y data_Y.pt
