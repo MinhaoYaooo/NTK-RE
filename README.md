@@ -11,9 +11,6 @@ NTK-RE/
 │   ├── ntk.py               # Jacobian contraction & NTK computation
 │   ├── reml.py              # REML optimization logic
 │   └── hypothesis_test.py   # Statistical significance testing
-├── simulation/              # Reproduction scripts for research papers
-│   ├── simulation_reml_t.py # Dynamics comparison (2x3 Plot)
-│   └── simulation_power.py  # Power & Type I Error analysis (1x4 Plot)
 └── README.md
 ```
 
