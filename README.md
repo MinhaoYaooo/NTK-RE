@@ -1,4 +1,4 @@
-# NTK-RE: NTK vs GD Simulation
+# NTK-RE: Equivalence between neural tangent kernel (NTK) and random-effects model
 
 ## How to use
 1. Create the environment: `conda env create -f environment.yml`
