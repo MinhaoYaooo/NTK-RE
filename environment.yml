@@ -1,0 +1,13 @@
+name: NTK-RE
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+    - functorch
