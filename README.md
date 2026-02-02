@@ -21,11 +21,15 @@ NTK-RE/
 ## Installation
 
 1.  **Clone or download** this repository.
-2.  **Create the Conda environment**:
+    ```bash
+    git clone https://github.com/MinhaoYaooo/NTK-RE
+    cd NTK-RE
+    ```
+3.  **Create the Conda environment**:
     ```bash
     conda env create -f environment.yml
     ```
-3.  **Activate the environment**:
+4.  **Activate the environment**:
     ```bash
     conda activate NTK-RE
     ```
@@ -33,7 +37,7 @@ NTK-RE/
 ---
 ## Quick Start: Data Generation
 
-Before running the examples, let's generate a dataset using the **"Simple Function"** (Case 1) defined in our simulations, rather than random noise.
+Before running the examples, let's generate a dataset using the **"Simple Function"** (Case 1) defined in our simulations.
 
 Create a file named `generate_data.py` in the root folder and run it:
 
@@ -82,7 +86,7 @@ python train.py \
   --X data_X.pt \
   --Y data_Y.pt \
   --width 500 \
-  --depth 1 \
+  --depth 2 \
   --max_t 50000 \
   --lr 0.01 \
   --output_dir ./experiments/simple_case
@@ -113,7 +117,7 @@ train(
     X=X, 
     Y=Y, 
     width=500,        # Network width
-    depth=1,          # Network depth
+    depth=2,          # Network depth
     max_t=50000,      # Max epochs
     lr=1e-2,          # Learning rate
     output_dir='./experiments/python_api_run',
