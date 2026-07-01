@@ -1,6 +1,6 @@
 # GF-REML: A Python Toolkit for Random-Effects Inference and Early Stopping of Fixed-Operator Gradient Flows
 
-This repository provides **GF-REML**, a Python toolkit for studying **Fixed-Operator Gradient Flows** and **REML-guided early stopping** in deep neural networks. The toolkit connects wide DNN training dynamics with their NTK approximations, and uses **restricted maximum likelihood (REML)** to estimate principled stopping times and support statistical inference under a random-effects interpretation.
+This repository provides **GF-REML**, a Python toolkit for studying **Fixed-Operator Gradient Flows** and **REML-guided early stopping** in deep neural networks. The toolkit then uses **restricted maximum likelihood (REML)** to estimate principled stopping times and support statistical inference under a random-effects interpretation.
 
 The main goal is to provide a pipeline for:
 
